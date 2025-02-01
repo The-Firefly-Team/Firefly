@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Base</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    header {
+      background-color: #635225;
+      color: #ffffff;
+      font-family: "Trebuchet MS", sans-serif;
+      margin: 30px;
+      padding: 30px;
+      text-align: right;
+      border-radius: 20px;
+    }
+    body {
+      background-color: #382c0c;
+      color: #ffffff;
+      font-family: "Trebuchet MS", sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      max-width: 1000px;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    h3 {
+      color: rgb(231, 45, 45);
+    }
+
+    .os-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .os-list-item {
+      width: 33%;
+      margin: 10px;
+      padding: 25px;
+      background-color: #725e2b;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer; /* Ensures entire item is clickable */
+    }
+    .os-list-item h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .os-list-item p {
+      margin-bottom: 15px;
+    }
+    .os-list-item:hover {
+      background-color: #a28a4d;
+    }
+    .os-list-item img {
+      max-width: 100px;
+      min-width: 80px;
+      min-height: 80px;
+      height: auto;
+    }
+    a {
+      color: #eddb79;
+      font-weight: bold;
+      border: solid 5px none;
+      text-decoration: none; /* Remove underline */
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const osListItems = document.querySelectorAll('.os-list-item');
+
+      osListItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const link = item.getAttribute('data-link');
+          window.location.href = link;
+        });
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const creatorLinks = document.querySelectorAll('a[href^="https://Scratch.mit.edu/users/"]');
+
+      creatorLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault(); // Prevent default behavior
+          window.open(link.href, '_blank'); // Open link in new tab
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h3>Press X to exit • Press B to go back</h3>
+  </header>
+  <img src="logo.svg" width=100 height=100> <h1>Home Base</h1>
+  <div class="container">
+    <ul class="os-list">
+      <li class="os-list-item" data-link="https://turbowarp.org/embed/?project_url=raw.githubusercontent.com/Makssuper747/OpenMX/main/OpenMX%2010.0.sb3">
+        <img src="images/OpenMX.png" alt="OpenMX logo"> <h2>OpenMX 10.0</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/Makssuper747" target="_blank">Makssuper747</a> </p>
+        <p>OpenMX is an open-source operating system used to make various operating systems like MaxOS.</p>
+      </li>
+      <li class="os-list-item" data-link="https://bambus80.github.io/microconsen/bambus_os/release/html/5.20-r1.html">
+        <img src="images/Bambus OS.png" alt="Bambus OS logo"> <h2>Bambus OS 5</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/BambusOS" target="_blank">bambus80</a> </p>
+        <p>Bambus OS 5 is a powerful operating system powered by the Micro Consen kernel.</p>
+      </li>
+      <li class="os-list-item" data-link="https://bambus80.github.io/microconsen/bambus_os/release/html/6.01.html">
+        <img src="images/Bambus OS.png" alt="Bambus OS logo"> <h2>Bambus OS 6</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/BambusOS" target="_blank">bambus80</a> </p>
+        <p>Bambus OS 6 is an even more powerful version of Bambus OS 5 with more quality-of-life features.</p>
+      </li>
+      <li class="os-list-item" data-link="https://turbowarp.org/1076123068/embed/?fullscreen-background=rgb(17,17,17)&addons=remove-curved-stage-border">
+        <img src="images/TriOS.png" alt="TriOS logo"> <h2>TriOS Cosmos Build 2030</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/Scratch_Fakemon" target="_blank">Scratch_Fakemon</a> </p>
+        <p>TriOS is an open-source operating system designed to be easy to use for novices.</p>
+      </li>
+      <li class="os-list-item" data-link="https://scratchfakemon.github.io/Firefly/Home%20Base/Presets/PaweR%20OS">
+        <img src="images/PaweR OS.svg" alt="PaweR OS logo"> <h2>PaweR OS Andromeda 1.0</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/PaweR_Develop" target="_blank">PaweR_Develop</a> </p>
+        <p>PaweR OS is a simple operating system powered by Micro Consen.</p>
+      </li>
+      <li class="os-list-item" data-link="https://scratch.mit.edu/projects/1095635595/embed">
+        <img src="images/gammaOS.svg" alt="gammaOS logo"> <h2>gammaOS Apollo</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/DeltaTeamOfficial" target="_blank">The Delta Team</a> </p>
+        <p>gammaOS Apollo is a revolutionary step in the Scratch OS community, with new features designed for the user.</p>
+      </li>
+      <li class="os-list-item" data-link="https://scratch.mit.edu/projects/1094173078/embed">
+        <img src="images/AleOS.svg" alt="AleOS Logo"> <h2>AleOS Tokyo</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/AlejandrixKing245" target="_blank">AlejandrixKing245</a> </p>
+        <p>AleOS Tokyo is an OS inspired by the city of Tokyo, Japan.</p>
+      </li>
+      <li class="os-list-item" data-link="https://scratch.mit.edu/projects/1096751363/embed">
+        <img src="images/AleOSAETH.svg" alt="AleOS Aether Logo"> <h2>AleOS Aether</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/AlejandrixKing245", target="_blank">AlejandrixKing245</a> </p>
+        <p>AleOS Aether, version 22.3 of AleOS, is a modern OS with a wide variety of features.</p>
+      </li>
+      <li class="os-list-item" data-link="https://scratch.mit.edu/projects/720339639/embed">
+        <img src="images/Nacro OS.svg" alt="Nacro OS Logo"> <h2>Nacro OS 5</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/Nacro_software" target="_blank">Nacro_software</a> </p>
+        <p>Nacro OS is a beautifully-designed OS that puts form over functionality.</p>
+      </li>
+      <li class="os-list-item" data-link="https://scratch.mit.edu/projects/1071078461/embed">
+        <img src="images/JetOS.svg" alt="JetOS Logo"> <h2>JetOS Expo Build 2020</h2>
+        <p>Made by <a href="https://Scratch.mit.edu/users/Novaboom6956" target="_blank">Novaboom6956</a> </p>
+        <p>JetOS is a retro-styled modern OS.</p>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
