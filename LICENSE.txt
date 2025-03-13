@@ -1,0 +1,28 @@
+For Non-Scratch software:
+
+
+Scratch Computing Alliance Off-Scratch Software License 1.0 (SCA-OSSL-1.0)
+
+Copyright 2024 Scratch Computing Alliance
+
+IF YOU HAVE HAD TO PAY FOR THIS SOFTWARE, DEMAND A REFUND IMMEDIATELY. THIS IS SOFTWARE IS FREE AND OPEN-SOURCE.
+
+BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
+
+The creator of this software hereby grants the user permission to use, modify, and/or redistribute (with credit) this software as you want, free of charge. You are not allowed to sell this product, as it is free software.
+
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Summary:
+
+
+The Scratch Computing Alliance Off-Scratch Software License 1.0 (SCA-OSSL-1.0) allows users to use, modify, and redistribute the software for free, as long as they provide credit to the creator. Users are not permitted to sell the software. The license also specifies that redistributions must include the original copyright notice and disclaimer. Additionally, it states that the software is provided "as is," without warranty, and the creators are not liable for any damages arising from the use of the software.
