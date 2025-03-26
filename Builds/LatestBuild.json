@@ -1,12 +1,12 @@
 {
   "Lightning": {
-    "link":undefined,
-    "name":undefined,
-    "type":undefined,
+    "link": "https://raw.githubusercontent.com/The-Firefly-Team/Firefly/web/Homebase/index.html",
+    "name": "Home Base",
+    "type": "Test"
   },
    "Firefly": {
-    "link":undefined,
-    "name":undefined,
-    "type":undefined,
-  },
+    "link": "none",
+    "name": "none",
+    "type": "none"
+  }
 }
