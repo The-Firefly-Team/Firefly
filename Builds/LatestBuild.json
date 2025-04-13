@@ -1,13 +1,13 @@
 {
   "Lightning": {
     "link": "none",
-    "sb3":"none",
+    "sb3": "none",
     "name": "Home Base",
     "type": "Test"
   },
    "Firefly": {
     "link": "none",
-     "sb3":"none",
+     "sb3": "none",
     "name": "none",
     "type": "none"
   }
