@@ -2,12 +2,12 @@
 ### The hub for Firefly Apps 
 Apps for Firefly and Lightning will be in this folder.
 
-Firefly apps are only one sprite, so they're really easy to install while still being functional.
+---
 
-Below, I have instructions for two ways to install Firefly apps.
+## Installing apps on Firefly 1.0:
+#### Note: Firefly 1.0 only supports the .ffy app format.
 
-
-# To download:
+### To download:
 ```
 Open the file for the app you want to install.
 Click the Raw button.
@@ -18,14 +18,14 @@ Select File as your installation method.
 Import the file you just downloaded.
 ```
 
-# To paste link:
+### To paste link:
 ```
 Open the file for the app you want to install.
-Right-click (Windows), two-finger-click (Universal), alt-click (ChromeOS) or ctrl-click (macOS) the Raw button
+Right-click (Windows), alt-click (ChromeOS) ctrl-click (macOS), or two-finger-click (Universal) the Raw button.
 Click Copy Link Address.
 Paste the link into your URL bar, but don't press enter.
 Replace "github.com" with "raw.githubusercontent.com".
-Remove "/raw" from the URL.
+Remove "/raw/refs/heads" from the URL.
 Copy the link.
 Go into Firefly.
 Open Store.
