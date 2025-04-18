@@ -1,8 +1,8 @@
 {
 "_format":"fupd",
-"_type":"patch",
 "_version":"1.0",
-"_name":"Sample Update",
+"type":"patch",
+"name":"Sample Update",
 "updateVer":"0.00",
 "content":["Your sprites here!"]
 }
