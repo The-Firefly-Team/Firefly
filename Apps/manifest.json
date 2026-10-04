@@ -1,0 +1,49 @@
+{
+  "$meta": {
+    "name": "Official Firefly Store Repo",
+    "maintainer": "The Firefly Team",
+    "path": "https://raw.githubusercontent.com/The-Firefly-Team/Firefly/main/Apps/",
+    "platforms": ["ffy1", "varsovia", "interapp"]
+  },
+  "xyle.xyric": {
+    "name": "Xyric",
+    "id": "xyle.xyric",
+    "publisher": "Xyle",
+    "release": { "month": 9, "day": 18, "year": 2023 },
+    "description": {
+      "en": "Stream your favorite movies and TV shows for free."
+    },
+    "icon": "Icons/Xyric.svg",
+    "version": 2,
+    "platforms": {
+      "ffy1": "Xyric Installer.ffy",
+      "varsovia": "Xyric.ffyx"
+    },
+    "tags": ["media", "streaming"]
+  },
+  "cat_eatacat.pulseplayer": {
+    "name": "PulsePlayer",
+    "id": "cat_eatacat.pulseplayer",
+    "publisher": "cat_Eatacat",
+    "release": { "month": 9, "day": 20, "year": 2024 },
+    "version": 1,
+    "platforms": {
+      "ffy1": "PulsePlayer.Installer.ffy"
+    },
+    "tags": ["media"]
+  },
+  "cat_eatacat.interwebs-explorer": {
+    "name": "Interwebs Explorer",
+    "id": "cat_eatacat.interwebs-explorer",
+    "publisher": "cat_Eatacat",
+    "release": { "month": 9, "day": 21, "year": 2024 },
+    "description": {
+      "en": "Explore the interwebs."
+    },
+    "version": 1,
+    "platforms": {
+      "ffy1": "Interwebs.explorer.Installer.ffy"
+    },
+    "tags": ["browser"]
+  }
+}
