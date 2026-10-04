@@ -1,13 +1,13 @@
 {
   "Lightning": {
     "link": "https://the-firefly-team.github.io/Firefly/Builds/Lightning/Varsovia/Lightning%20Varsovia%20PB2",
-    "sb3": "https://raw.githubusercontent.com/The-Firefly-Team/Firefly/main/Lightning/Lightning%20Varsovia%20PB2.sb3",
+    "sb3": "https://raw.githubusercontent.com/The-Firefly-Team/Firefly/main/Lightning/Varsovia/Betas/Lightning%20Varsovia%20PB2.sb3",
     "name": "Lightning Varsovia Public Beta 2",
     "type": "Public Beta"
   },
-   "Firefly": {
+  "Firefly": {
     "link": "https://the-firefly-team.github.io/Firefly/Builds/Firefly/1/Firefly%201.1",
-     "sb3": "https://raw.githubusercontent.com/The-Firefly-Team/Firefly/main/Firefly/Releases/Firefly%201.1.sb3",
+    "sb3": "https://raw.githubusercontent.com/The-Firefly-Team/Firefly/main/Firefly/1.x/Releases/Firefly%201.1.sb3",
     "name": "Firefly 1.1",
     "type": "Release"
   }
